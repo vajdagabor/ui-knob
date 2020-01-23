@@ -1,0 +1,33 @@
+.ProgressCircle {
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.ProgressCircle__Progress {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.ProgressCircle__Value {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  color: blue;
+  font-size: 2em;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.ProgressCircle__Meter {
+  stroke: blue;
+}
+
+.ProgressCircle__MeterBase {
+  stroke: #ccc;
+}
