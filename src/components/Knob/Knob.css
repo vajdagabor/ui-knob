@@ -1,0 +1,7 @@
+.Knob {
+  cursor: grab;
+}
+
+.Knob:active {
+  cursor: grabbing;
+}

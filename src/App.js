@@ -1,10 +1,10 @@
 import React from "react"
-import ProgressCircle from "components/ProgressCircle"
+import Knob from "components/Knob"
 
 function App() {
   return (
     <div className="App">
-      <ProgressCircle value={25} max={100} />
+      <Knob value={25} max={100} />
     </div>
   )
 }
