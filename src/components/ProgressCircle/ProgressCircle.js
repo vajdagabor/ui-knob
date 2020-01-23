@@ -43,7 +43,7 @@ function ProgressCircle({
           r={radius}
           fill="none"
           stroke="#444"
-          stroke-width={meterWidth}
+          strokeWidth={meterWidth}
         />
         <circle
           className="ProgressCircle__Meter"
@@ -52,7 +52,7 @@ function ProgressCircle({
           r={radius}
           fill="none"
           stroke="white"
-          stroke-width={meterWidth}
+          strokeWidth={meterWidth}
           transform="rotate(90, 20, 20)"
           style={{
             strokeDasharray: meterLength,

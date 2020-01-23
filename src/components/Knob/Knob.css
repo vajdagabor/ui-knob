@@ -1,5 +1,8 @@
 .Knob {
+  display: inline-block;
+  border-radius: 51%;
   cursor: grab;
+  user-select: none;
 }
 
 .Knob:active {
