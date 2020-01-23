@@ -1,5 +1,5 @@
 {
-  "name": "scrubber",
+  "name": "@madscip/ui-knob",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
